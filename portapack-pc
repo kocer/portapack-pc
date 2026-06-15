@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# PortaPack PC launcher — activates the bundled venv and runs the app.
+cd "$(dirname "$(readlink -f "$0")")"
+exec ./.venv/bin/python run.py "$@"

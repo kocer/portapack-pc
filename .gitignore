@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+captures/
+*.iq
+*.cfile
+*.wav
+fftw_wisdom.dat
+.venv/
+venv/

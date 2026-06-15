@@ -1,0 +1,8 @@
+# Core (install via system packages on Arch, or pip in a venv with
+# --system-site-packages): PySide6, numpy, scipy, pyqtgraph, SoapySDR + HackRF module
+PySide6>=6.5
+numpy>=1.24
+scipy>=1.10
+pyqtgraph>=0.13
+sounddevice>=0.4
+colorama

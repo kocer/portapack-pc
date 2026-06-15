@@ -1,0 +1,12 @@
+{
+  "frequency": 433000000.0,
+  "sample_rate": 10000000.0,
+  "lna_gain": 32,
+  "vga_gain": 20.0,
+  "amp_enable": false,
+  "bias_tee": false,
+  "freq_corr_ppm": 0.0,
+  "freq_step": 25000.0,
+  "last_app": "jammer_tx",
+  "apps": {}
+}
