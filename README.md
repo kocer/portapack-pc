@@ -128,6 +128,18 @@ python-pyqtgraph soapysdr soapyhackrf hackrf portaudio`, plus pip
 
 ## Legal
 
+This project is provided for **education, research, and authorised testing only**.
+
 Transmit only on frequencies and at power levels you are licensed/authorised to
-use. Receiving may also be regulated in your jurisdiction. You are responsible
-for legal compliance.
+use. Receiving may also be regulated in your jurisdiction. You are solely
+responsible for legal compliance.
+
+**GNSS / GPS simulation (`gps-sdr-sim`) — read this.** Generating and radiating
+GNSS signals is GPS spoofing. Transmitting on GNSS bands is illegal in nearly
+every jurisdiction and can disrupt aviation, maritime, timing, and other
+safety-of-life systems. Only ever feed simulated signals into a shielded RF
+enclosure or a wired connection to the SDR — **never radiate over the air**.
+
+The author(s) accept no liability for any damage, interference, or legal
+consequence arising from the use or misuse of this software. Use at your own
+risk.
